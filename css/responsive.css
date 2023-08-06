@@ -1,0 +1,215 @@
+@media (max-width: 1200px) {
+    .navbar-expand-lg .navbar-brand img{ width:210px;}
+    .navbar-light .navbar-nav .nav-link{ font-size:13px;}
+    ul.navbar-nav li{ margin-right:20px;}
+    
+}
+.fixed-bottom2 {
+    display: none;
+}
+@media (max-width: 991px) {
+    
+    #aboutus .heading-part span {
+    font-size: 40px;
+    }
+  
+  .hiddendk{ display:none;}
+.hiddenmob{ display:inline-block;}  
+    .inner-banner {
+   
+    height:40vh;
+    
+}
+.blist2 li:nth-child(4){ padding-bottom:65px;}
+
+.blist2,.blist1{ width:100%; float:left;}
+
+
+
+.inner-banner:after{height:100%;}
+.fixed-bottom2 {
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    margin: 0;
+    height: 80px;
+}
+
+  .delhihousing-slider .slider .slider-inner .slider-lt {top:-50px;}  
+  .inner-page .what-thumb{margin-bottom:10px;}
+  .news-blog .what-thumb{margin-bottom:0px;}
+  .news-blog .news-content{margin-bottom:30px;}
+  .news-blog .news-content:last-child{margin-bottom:0px;}
+  .teamslie{margin-bottom:40px;}
+  
+  .scroll {
+    overflow-y: inherit;
+    height: auto;
+  }
+   .pd-top{padding:50px 0;} 
+   
+   .content-part{padding-right: 0px;margin-bottom:30px;}
+   
+   .our-services .nav-tabs .nav-link {
+   
+    margin: 0 107px 10px 15px;
+   }
+   
+   .about-sec h3 {
+    margin: 15px 0 60px;
+   }
+   
+   .nav-thumb img {height:auto !important;}
+   
+   .nav-thumb {
+    width: 100%;
+    
+   }
+   
+   .testimonial-slider {
+    max-width: 90%;
+    margin: 0 auto;
+}
+   
+ .delhihousing-slider .slider .slider-inner .slider-rt {
+       height: 80vh;
+}
+
+.delhihousing-slider .slider .slider-inner .slider-lt {left:15px;}
+
+.about-sec p:first-child {
+margin-top:20px;
+}
+
+.about-sec h3 {
+    color: #696969;
+    font-size: 27px;
+    padding-right:0;
+}
+
+.delhihousing-slider .slider .slider-inner .slider-lt h3 {
+    line-height:40px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.bg-gray {
+   
+    padding: 40px 40px 40px 40px;
+}
+
+.why-invest .d-flex{flex-wrap:wrap;}
+
+.group-sec {
+    
+       flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.media-content p {margin-bottom: 40px;}
+
+.media-box2 {
+       flex-wrap: wrap;
+      
+}
+
+
+
+.media-box {  margin-top: 40px;}
+
+.media-box2 img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.media-box2 .btn {
+    position: relative;
+    bottom: 0;
+}
+.product-showcase-carousel-controls--left {
+    left: 40% !important;
+}
+
+.product-showcase-carousel-controls--right {
+    left: 52% !important;
+}
+
+.news-slider{flex-wrap:wrap;}
+.news-thumb{    
+    margin: 20px 20px;
+    width: 100%;
+    
+}
+
+.news-thumb:last-child{margin-right:20px !important;}
+
+
+
+footer {
+    padding: 30px 0 10px;
+}
+.footer-inner{border:0;    padding:0px 0;    min-height: 0;}
+
+.footer-inner:first-child ul{margin-bottom:0;margin-top:30px}
+
+.mr-top{margin-top:0px !important;margin-bottom:30px !important;}
+
+.logo-part {
+    padding-top: 0;
+}
+
+.subscribe{margin-top:20px;}
+
+.subscribe-from button {
+    width: 95px;
+}
+
+footer h2 {
+padding-top: 30px;
+    
+}
+
+footer .social-icon {
+    display: flex;
+    padding: 0px 0 0px;
+}
+
+.ft-pd {
+    padding: 0px 0;
+}
+
+
+}
+
+@media (max-width:375px){
+    .form-style-onload {
+    margin-right:320px;
+   
+}
+.contactform {
+    width: 320px;
+    right: -320px; 
+   
+}
+
+.contbtn{    right:248px;}
+    
+}
+
+@media (max-width:320px){
+    
+    .contbtn{right: 198px;}
+   .form-style-onload {
+    margin-right:270px;
+   
+}
+.contactform {
+    width: 270px;
+    right: -270px; 
+    padding: 40px 15px 30px;
+}
+}

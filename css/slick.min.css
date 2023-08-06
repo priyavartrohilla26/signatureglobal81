@@ -1,0 +1,211 @@
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent
+}
+
+
+.product-showcase-carousel-controls img {
+    width: 35px;
+}
+
+.team-slider .product-showcase-carousel-controls--left {
+    left: 48%;
+    transform: rotateY(180deg);
+    bottom: -55px;
+}
+
+
+
+.contol_custom .product-showcase-carousel-controls {
+    bottom: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #143283;
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    border-radius: 50px;
+   
+}
+.contol_custom .product-showcase-carousel-controls--left {
+    left: 133px;
+}
+
+.contol_custom .product-showcase-carousel-controls--right {
+    right: 133px;
+    left: auto;
+}
+
+.contol_custom .product-showcase-carousel-controls i {
+width: auto;
+    height: auto;
+    padding: 0;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    font-size: 23px;
+    margin-bottom: 0;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: -45px;
+    line-height: 45px;
+}
+
+
+
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+.slick-list:focus {
+    outline: 0
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand
+}
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.slick-track:after,
+.slick-track:before {
+    display: table;
+    content: ''
+}
+
+.slick-track:after {
+    clear: both
+}
+
+.slick-loading .slick-track {
+    visibility: hidden
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px
+}
+
+[dir=rtl] .slick-slide {
+    float: right
+}
+
+.slick-slide img {
+    display: block
+}
+
+.slick-slide.slick-loading img {
+    display: none
+}
+
+.slick-slide.dragging img {
+    pointer-events: none
+}
+
+.slick-initialized .slick-slide {
+    display: block
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent
+}
+
+.slick-arrow.slick-hidden {
+    display: none
+}
+
+.nit-slider .slick-slide img {
+    height: 505px;
+}
+
+
+
+.paymemt_slide .product-showcase-carousel-controls {
+    position: absolute;
+    bottom: -115px;
+}
+
+
+.product-showcase-carousel-controls {
+    position: absolute;
+    bottom: -70px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+    font-weight: 100;
+    font-size: 20px;
+    color: #243a7f;
+}
+.product-showcase-carousel-controls i {
+    font-weight: 100;
+}
+
+.product-showcase-carousel-controls--right {
+    left: 52%;
+    text-align: right;
+}
+
+.product-showcase-carousel-controls--left {
+    left:48%;
+}
+
+.product-showcase-carousel-controls i {
+       text-align: center;
+    width: 35px;
+    height: 35px;
+    padding: 6px 9px;
+    margin: 0;
+    vertical-align: middle;
+    border: 1px solid #243a7f;
+    border-radius: 100%;
+}
+
+
+
+@media (max-width: 991px) {
+    .nit-slider .slick-slide img {
+        height: auto;
+    }
+}
